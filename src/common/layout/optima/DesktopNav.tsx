@@ -139,6 +139,7 @@ export function DesktopNav(props: { component: React.ElementType, currentApp?: N
       const stateActionMap: { [key: string]: { isActive: boolean, showModal: () => void } } = {
         settings: { isActive: !!showPreferencesTab, showModal: () => openPreferencesTab() },
         models: { isActive: showModelsSetup, showModal: openModelsSetup },
+        logout: { isActive: false, showModal: () => Router.push('/logout') },
         0: { isActive: false, showModal: () => console.log('Action missing for ', item.overlayId) },
       };
       const { isActive, showModal } = stateActionMap[item.overlayId] ?? stateActionMap[0];

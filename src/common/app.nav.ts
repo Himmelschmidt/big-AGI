@@ -27,6 +27,7 @@ import { DiscordIcon } from '~/common/components/icons/3rdparty/DiscordIcon';
 // Modal icons
 import BuildCircleIcon from '@mui/icons-material/BuildCircle';
 import SettingsIcon from '@mui/icons-material/Settings';
+import { LogoutIcon } from '~/common/components/icons/Logout';
 
 
 import { Brand } from '~/common/app.config';
@@ -68,7 +69,7 @@ export interface NavItemApp extends ItemBase {
 
 export interface NavItemModal extends ItemBase {
   type: 'modal',
-  overlayId: 'settings' | 'models',
+  overlayId: 'settings' | 'models' | 'logout',
 }
 
 export interface NavItemExtLink extends ItemBase {
@@ -223,6 +224,12 @@ export const navItems: {
       icon: SettingsIcon,
       type: 'modal',
       overlayId: 'settings',
+    },
+        {
+      name: 'Logout',
+      icon: LogoutIcon,
+      type: 'modal',
+      overlayId: 'logout',
     },
   ],
 
