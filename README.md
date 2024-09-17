@@ -1,25 +1,10 @@
-# BIG-AGI 🧠✨
+# BIG-AGI - Himmelschmidt Edition ✨
 
-Welcome to big-AGI, the AI suite for professionals that need function, form,
-simplicity, and speed. Powered by the latest models from 12 vendors and
-open-source servers, `big-AGI` offers best-in-class Chats,
-[Beams](https://github.com/enricoros/big-AGI/issues/470),
-and [Calls](https://github.com/enricoros/big-AGI/issues/354) with AI personas,
-visualizations, coding, drawing, side-by-side chatting, and more -- all wrapped in a polished UX.
+Welcome to big-AGI Himmelschmidt edition, Himmelschmidt's personal fork of [big-AGI] (https://github.com/users/enricoros/big-AGI)
 
-Stay ahead of the curve with big-AGI. 🚀 Pros & Devs love big-AGI. 🤖
+For now I haven't changed much, just added a logout button for logout functionality. I'm going to be using this as personal project to learn more about GitHub and the git process, while also adding some personal tweaks and functionality to a really cool project!
 
-[![Official Website](https://img.shields.io/badge/BIG--AGI.com-%23096bde?style=for-the-badge&logo=vercel&label=launch)](https://big-agi.com)
-
-> 🚀 Big-AGI 2 is launching Q4 2024. Be the first to experience it before the public release.
->
-> 👉 [Apply for Early Access](https://y2rjg0zillz.typeform.com/to/FDggwwZv?utm_source=github&utm_medium=readme&utm_campaign=ba20)
-
-Or fork & run on Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fenricoros%2Fbig-AGI&env=OPENAI_API_KEY&envDescription=Backend%20API%20keys%2C%20optional%20and%20may%20be%20overridden%20by%20the%20UI.&envLink=https%3A%2F%2Fgithub.com%2Fenricoros%2Fbig-AGI%2Fblob%2Fmain%2Fdocs%2Fenvironment-variables.md&project-name=big-AGI)
-
-### Quick links: 👉 [roadmap](https://github.com/users/enricoros/projects/4/views/2) 👉 [installation](docs/installation.md) 👉 [documentation](docs/README.md)
+### Quick links: 👉 [roadmap](s/projects/4/views/2) 👉 [installation](docs/installation.md) 👉 [documentation](docs/README.md)
 
 ### What's New in 1.16.1...1.16.8 · Sep 13, 2024 (patch releases)
 
